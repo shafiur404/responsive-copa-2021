@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;700&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  font-family: Poppons;
+  font-weight: 500;
+  font-size: 16px;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+  padding: 30px;
+  background-color: #2d25a0;
+}
+.live {
+  background-color: #e02c6d;
+  font-size: 24px;
+  text-decoration: none;
+  color: white;
+  width: 300;
+  padding: 20px 30px;
+}
+.banner a:hover {
+  background-color: orchid;
+  color: black;
+}
+
+header {
+  background: #2d25a0;
+  height: 677px;
+  margin-top: 0px;
+  margin-bottom: 70px;
+}
+.button {
+  background-color: #e02c6d;
+  padding: 10px 24px;
+  text-decoration: none;
+  color: white;
+}
+.banner {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 60px;
+  margin: 100px;
+  color: white;
+}
+#banner-bg {
+  height: 438px;
+  width: 556.0103149414062px;
+  left: 1299.01025390625px;
+  top: 153px;
+  border-radius: 0px;
+  background-size: 100% 100%;
+  border-right: 0%;
+}
+.player-details {
+  margin: 70px 210px 70px 180px;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(3, 1fr);
+}
+.player {
+  width: 330px;
+  height: 474px;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  background: #ffffff;
+  padding: 15px;
+  margin-bottom: 27px;
+}
+.player img {
+  width: 100%;
+}
+.player-info {
+  margin-top: 20px;
+  font-weight: 200;
+}
+.highlights {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 158px;
+  margin-top: 0px;
+}
+#highlight {
+  text-align: center;
+  font-size: 50px;
+  padding: 20px;
+  background: darkcyan;
+  margin-bottom: 25px;
+}
+footer {
+  text-align: center;
+  width: 483.87px;
+  height: 213px;
+  margin: 0px 480px 63px 475px;
+}
+#logo {
+  width: 483.87px;
+  height: 110px;
+  align-items: center;
+}
+@media (max) {
+}
